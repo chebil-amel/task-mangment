@@ -6,26 +6,29 @@ This application was generated using JHipster 8.6.0, you can find documentation 
 
 # Junior Developer Test Task: Full-Stack Web Application Development
 This repository contains a simple full-stack web application generated using JHipster, with a Task entity and CRUD operations. The application uses Spring Boot for the back-end, Angular for the front-end, and H2 in-memory database.
-
+<br>
 
 
 ## Getting Started
 To get started with the application, follow these steps:
+<br>
 
 Clone the repository: git clone https://github.com/chebil-amel/task-mangment.git
-## 
+<br>
 Navigate to the project folder: cd task-mangement 
-## 
+<br>
 Install dependencies: npm install (for Angular) and ./mvnw install (for Spring Boot)
-## 
+<br>
 Start the application: npm start (for Angular) and ./mvnw spring-boot:run (for Spring Boot)
-## Running the Application Locally
+<br> 
+# Running the Application Locally
 To run the application locally, follow these steps:
-
+<br> 
 Build the Docker image: docker build -t task-mangment .
 Run the Docker container: docker run -p 8080:8080 task-mangment
 Access the application: http://localhost:8080
 ## Using the GitHub Actions Workflow
+<br> 
 The GitHub Actions workflow is set up to automatically build the Docker image and push it to Docker Hub on each push to the main branch. To use the workflow, follow these steps:
 
 ## Make changes to the code and commit them: git add . and git commit -m "your-commit-message"
@@ -33,7 +36,7 @@ The GitHub Actions workflow is set up to automatically build the Docker image an
 ## The GitHub Actions workflow will automatically build the Docker image and push it to Docker Hub
 Pulling and Running the Docker Image from Docker Hub
 To pull and run the Docker image from Docker Hub, follow these steps:
-
+<br>  
 Pull the Docker image: docker pull amelchebil/task-mangment:latest
 Run the Docker container: docker run -p 8080:8080  amelchebil/task-mangment:latest
 Access the application: http://localhost:8080
@@ -41,7 +44,7 @@ Access the application: http://localhost:8080
 ## Project Structure
 
 Node is required for generation and recommended for development. `package.json` is always generated for a better development experience with prettier, commit hooks, scripts and so on.
-
+<br>  
 In the project root, JHipster generates configuration files for tools like git, prettier, eslint, husky, and others that are well known and you can find references in the web.
 
 `/src/*` structure follows default Java structure.
@@ -57,7 +60,7 @@ In the project root, JHipster generates configuration files for tools like git, 
 - `/src/main/docker` - Docker configurations for the application and services that the application depends on
 
 ## Development
-
+<br> 
 The build system will install automatically the recommended version of Node and npm.
 
 We provide a wrapper to launch npm.
@@ -66,7 +69,7 @@ You will only need to run this command when dependencies change in [package.json
 ```
 ./npmw install
 ```
-
+<br>  
 We use npm scripts and [Angular CLI][] with [Webpack][] as our build system.
 
 Run the following commands in two separate terminals to create a blissful development experience where your browser
@@ -84,7 +87,7 @@ Add the `help` flag on any command to see how you can use it. For example, `./np
 The `./npmw run` command will list all the scripts available to run for this project.
 
 ### PWA Support
-
+<br>  
 JHipster ships with PWA (Progressive Web App) support, and it's turned off by default. One of the main components of a PWA is a service worker.
 
 The service worker initialization code is disabled by default. To enable it, uncomment the following code in `src/main/webapp/app/app.config.ts`:
@@ -94,7 +97,7 @@ ServiceWorkerModule.register('ngsw-worker.js', { enabled: false }),
 ```
 
 ### Managing dependencies
-
+<br>  
 For example, to add [Leaflet][] library as a runtime dependency of your application, you would run following command:
 
 ```
