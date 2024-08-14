@@ -23,3 +23,4 @@ jobs:
           docker build -t task-manager .
           docker tag task-manager ${{ secrets.amelchebil }}/task-manager:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/task-manager:latest
+          
