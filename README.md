@@ -2,6 +2,39 @@
 
 This application was generated using JHipster 8.6.0, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v8.6.0](https://www.jhipster.tech/documentation-archive/v8.6.0).
 
+
+
+# Junior Developer Test Task: Full-Stack Web Application Development
+This repository contains a simple full-stack web application generated using JHipster, with a Task entity and CRUD operations. The application uses Spring Boot for the back-end, Angular for the front-end, and H2 in-memory database.
+
+
+
+## Getting Started
+To get started with the application, follow these steps:
+
+Clone the repository: git clone https://github.com/chebil-amel/task-mangment.git
+Navigate to the project folder: cd your-repo-name
+Install dependencies: npm install (for Angular) and ./mvnw install (for Spring Boot)
+Start the application: npm start (for Angular) and ./mvnw spring-boot:run (for Spring Boot)
+## Running the Application Locally
+To run the application locally, follow these steps:
+
+Build the Docker image: docker build -t task-mangment .
+Run the Docker container: docker run -p 8080:8080 task-mangment
+Access the application: http://localhost:8080
+## Using the GitHub Actions Workflow
+The GitHub Actions workflow is set up to automatically build the Docker image and push it to Docker Hub on each push to the main branch. To use the workflow, follow these steps:
+
+## Make changes to the code and commit them: git add . and git commit -m "your-commit-message"
+## Push the changes to the main branch: git push origin main
+## The GitHub Actions workflow will automatically build the Docker image and push it to Docker Hub
+Pulling and Running the Docker Image from Docker Hub
+To pull and run the Docker image from Docker Hub, follow these steps:
+
+Pull the Docker image: docker pull amelchebil/task-mangment:latest
+Run the Docker container: docker run -p 8080:8080  amelchebil/task-mangment:latest
+Access the application: http://localhost:8080
+
 ## Project Structure
 
 Node is required for generation and recommended for development. `package.json` is always generated for a better development experience with prettier, commit hooks, scripts and so on.
