@@ -13,8 +13,11 @@ This repository contains a simple full-stack web application generated using JHi
 To get started with the application, follow these steps:
 
 Clone the repository: git clone https://github.com/chebil-amel/task-mangment.git
-Navigate to the project folder: cd your-repo-name
+## 
+Navigate to the project folder: cd task-mangement 
+## 
 Install dependencies: npm install (for Angular) and ./mvnw install (for Spring Boot)
+## 
 Start the application: npm start (for Angular) and ./mvnw spring-boot:run (for Spring Boot)
 ## Running the Application Locally
 To run the application locally, follow these steps:
