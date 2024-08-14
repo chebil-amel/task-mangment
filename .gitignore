@@ -4,6 +4,8 @@
 /node/
 node_tmp/
 node_modules/
+target/
+bower_components/
 npm-debug.log.*
 /.awcache/*
 /.cache-loader/*
